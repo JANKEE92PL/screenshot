@@ -14,3 +14,15 @@ sreenshotBTN.addEventListener("click", () => {
     }, 2000);
   });
 });
+
+const homeBTN = document.getElementById("home");
+homeBTN.addEventListener("click", () => {
+  featuresBTN.classList.remove("active");
+  homeBTN.classList.add("active");
+});
+const featuresBTN = document.getElementById("features");
+featuresBTN.addEventListener("click", () => {
+  homeBTN.classList.remove("active");
+
+  featuresBTN.classList.add("active");
+});
