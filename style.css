@@ -89,6 +89,7 @@ body {
   user-select: none;
   border-radius: 1rem;
   background-color: white;
+  transition: all 500ms ease-in-out;
 }
 .btn-lg .btn-secondary {
   color: #333;
@@ -103,6 +104,15 @@ body {
 }
 .mt-10 {
   margin-top: 10%;
+}
+.buttonload {
+  background-color: salmon;
+  color: white;
+  transform: scale(110%);
+}
+.strong {
+  color: salmon;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
